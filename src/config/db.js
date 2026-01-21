@@ -1,0 +1,11 @@
+
+import { Sequelize } from "sequelize";
+ 
+const sequelize = new Sequelize("utils", "root", "alphy@123", {
+  host: "localhost",
+  dialect: "mysql",
+  logging: true,
+});
+ 
+export default sequelize;
+ 
