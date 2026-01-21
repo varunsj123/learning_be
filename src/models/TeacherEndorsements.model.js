@@ -23,6 +23,7 @@ const TeacherEndorsement = sequelize.define(
       comment: "Class assigned to teacher (e.g., 5, 6, 7)",
     },
 
+    
     batch: {
       type: DataTypes.STRING,
       allowNull: false,
